@@ -1,0 +1,113 @@
+.flex {
+    margin: 3% auto;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    }
+    
+    body{
+        font-weight: 300;
+        color: rgb(85, 8, 75);
+    }
+    .card__1 {
+        width: 550px;
+        border: 2px solid rgb(0, 223, 193);
+        border-radius: 10%;
+        padding: 1%;
+        box-shadow: -15px -21px 0px -5px  rgb(0, 223, 193, 0.308);
+    }
+    .title__1 {
+        padding-left: 5%;
+    }
+    .hr {
+        background-color: rgb(0, 223, 193);
+        height: 3px;
+    }
+    .text__1 {
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: justify;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        width: 90%;
+        font-size: 150%;
+    }
+    .btn__1 {
+        padding: 3% 15% ;
+        background-color: rgb(0, 223, 193);
+        color: white;
+        font-weight: 500;
+        border: none;
+        cursor: pointer;
+        margin: 5% auto;
+    }
+    .btn_card1:hover {
+        background-color: rgb(0, 223, 193);
+    }
+    .conatiner_btn_card1 {
+        display: flex;
+        justify-content: center;
+    }
+    .card__2 {
+        width: 550px;
+        border: 2px solid rgb(0, 223, 193);
+        box-shadow: 0px 0px 15px  rgba(0, 223, 193, 52);
+    }
+    .title__2 {
+        padding: 1%;
+    }
+    .text__2 {
+        padding: 2%;
+    }
+    .card__3 {
+        margin: 0 auto;
+        border: 2px solid rgb(0, 223, 193);
+        height: 100%;
+        display: flex;
+    }
+    .text__3 {
+        font-size: 120%;
+        padding: 5%;
+    }
+    .title__3 {
+        font-size: 120%;
+        padding: 5%;
+    }
+    .btn__3 {
+        padding: 2% 15% ;
+        background: rgb(0, 223, 193);
+        color: white;
+        font-weight: 500;
+        border: none;
+        cursor: pointer;
+    }
+    .btn__3:hover {
+        background: rgb(0, 223, 193);
+    }
+    .conatiner_btn__3 {
+        display: flex;
+        justify-content: end;
+        padding: 5%;
+    }
+    .card__2 img{
+        width: 100%;
+    }
+    .card__3 img{
+        width: 100%;
+    }
+    .card__3__info {
+        width: 70%;
+    }
+    .card__1:hover {
+        box-shadow: -15px -21px 0px -5px  rgba(0, 223, 193, 0.603);
+        transition: all 0.3s ease;
+    }
+    .card__2:hover {
+        box-shadow: 0px 0px 15px  rgba(0, 223, 193, 0.637);
+        transition: all 0.3s ease;
+    }
+    .card__3:hover {
+        box-shadow: 0px 0px 15px  rgba(0, 223, 193, 0.637);
+        transition: all 0.3s ease;
+    }
